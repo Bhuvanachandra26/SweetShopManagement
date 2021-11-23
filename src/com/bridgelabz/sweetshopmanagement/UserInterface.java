@@ -6,9 +6,7 @@ import java.util.Set;
 public class UserInterface {
 	
 	public void printAllSweet(Set<Sweet>sweetList) {
-//		 for(int i = 0; i < sweetList.size(); i++){
-//			System.out.println(sweetList.get(i));
-//		 }
+		
 	    	for (Sweet sweet: sweetList) {
 				System.out.println(sweet);
 			}
@@ -20,3 +18,13 @@ public class UserInterface {
 			 return input;
 	   }
 	}
+
+
+
+
+
+
+
+//for(int i = 0; i < sweetList.size(); i++){
+//	System.out.println(sweetList.get(i));
+//}
